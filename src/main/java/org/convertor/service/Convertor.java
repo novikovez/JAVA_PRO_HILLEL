@@ -14,6 +14,7 @@ public class Convertor extends Language  {
 
     public void handler()  {
         System.out.println(APP);
+        System.out.println("Version 1.0");
         Factory factory = new Factory();
         ConvertorInterface convertorInterface = factory.handler();
 
