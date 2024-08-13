@@ -13,6 +13,7 @@ public class Convertor extends Language  {
     private static final Scanner scanner = new Scanner(System.in);
 
     public void handler()  {
+        System.out.println(APP);
         Factory factory = new Factory();
         ConvertorInterface convertorInterface = factory.handler();
 
