@@ -21,9 +21,10 @@ public class Factory extends Language {
             int input = scanner.nextInt();
             switch (input) {
                 case 1:
-                    this.factory = new KgsToPounds();
+                    this.factory = new PoundsToKgs();
                     break;
                 case 2:
+                    this.factory = new KgsToPounds();
                     break;
                 default:
                     System.out.println(INVALID_SELECT);
