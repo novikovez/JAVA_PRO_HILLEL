@@ -6,6 +6,7 @@ package org.convertor.service;
 */
 
 import org.convertor.language.Language;
+import org.convertor.service.distance.MilesToKm;
 import org.convertor.service.weight.KgsToPounds;
 import org.convertor.service.weight.PoundsToKgs;
 
@@ -47,7 +48,27 @@ public class Factory extends Language {
     }
 
     private void selectDistance() {
+        try {
+            System.out.println(SELECT_MILES);
+            System.out.println(SELECT_KM);
+            int input = scanner.nextInt();
+            switch (input) {
+                case 1:
+                    this.factory = new MilesToKm();
+                    break;
+                case 2:
+                   //
+                    break;
+                default:
+                    System.out.println(INVALID_SELECT);
+                    this.selectDistance();
+            }
 
+        } catch (InputMismatchException e) {
+            System.out.println(INVALID_INPUT);
+            scanner.nextLine();
+            this.selectDistance();
+        }
     }
 
     private void selectWeight() {
