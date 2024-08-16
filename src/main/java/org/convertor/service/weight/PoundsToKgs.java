@@ -5,9 +5,9 @@ package org.convertor.service.weight;
 | Автор: Igor Novikov |
 */
 
-import org.convertor.service.ConvertorInterface;
+import org.convertor.service.ConvertorServiceInterface;
 
-public class PoundsToKgs implements ConvertorInterface {
+public class PoundsToKgs implements ConvertorServiceInterface {
 
     @Override
     public double handler(double value) {

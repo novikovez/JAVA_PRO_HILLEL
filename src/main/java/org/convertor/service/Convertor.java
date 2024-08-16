@@ -13,8 +13,8 @@ public class Convertor extends Language  {
     private static final Scanner scanner = new Scanner(System.in);
 
     public void handler()  {
-        Factory factory = new Factory();
-        ConvertorInterface convertorInterface = factory.handler();
+        FactoryService factory = new FactoryService();
+        ConvertorServiceInterface convertorInterface = factory.handler();
 
         try {
             System.out.println(INPUT);
