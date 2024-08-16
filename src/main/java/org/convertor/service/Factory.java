@@ -1,11 +1,11 @@
 package org.convertor.service;
 
-
 /*
 | Автор: Igor Novikov |
 */
 
 import org.convertor.language.Language;
+import org.convertor.service.distance.KmToMiles;
 import org.convertor.service.distance.MilesToKm;
 import org.convertor.service.weight.KgsToPounds;
 import org.convertor.service.weight.PoundsToKgs;
@@ -21,6 +21,9 @@ public class Factory extends Language {
         this.selectType();
         return this.factory;
     }
+
+
+    /* Private Methods */
 
     private void selectType() {
         try {
@@ -57,7 +60,7 @@ public class Factory extends Language {
                     this.factory = new MilesToKm();
                     break;
                 case 2:
-                   //
+                    this.factory = new KmToMiles();
                     break;
                 default:
                     System.out.println(INVALID_SELECT);
