@@ -6,6 +6,8 @@ package org.convertor.service;
 */
 
 import org.convertor.language.Language;
+import org.convertor.service.weight.KgsToPounds;
+import org.convertor.service.weight.PoundsToKgs;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -15,6 +17,40 @@ public class Factory extends Language {
     private static final Scanner scanner = new Scanner(System.in);
 
     public ConvertorInterface handler()  {
+        this.selectType();
+        return this.factory;
+    }
+
+    private void selectType() {
+        try {
+            System.out.println(SELECT_TYPE);
+            System.out.println(SELECT_TYPE_1);
+            System.out.println(SELECT_TYPE_2);
+            int input = scanner.nextInt();
+            switch (input) {
+                case 1:
+                    this.selectDistance();
+                    break;
+                case 2:
+                    this.selectWeight();
+                    break;
+                default:
+                    System.out.println(INVALID_SELECT);
+                    this.selectType();
+            }
+        } catch (InputMismatchException e) {
+            System.out.println(INVALID_INPUT);
+            scanner.nextLine();
+            this.selectType();
+        }
+
+    }
+
+    private void selectDistance() {
+
+    }
+
+    private void selectWeight() {
         try {
             System.out.println(SELECT_POUNDS);
             System.out.println(SELECT_KGS);
@@ -28,15 +64,13 @@ public class Factory extends Language {
                     break;
                 default:
                     System.out.println(INVALID_SELECT);
-                    this.handler();
+                    this.selectWeight();
             }
 
         } catch (InputMismatchException e) {
             System.out.println(INVALID_INPUT);
             scanner.nextLine();
-            this.handler();
+            this.selectWeight();
         }
-        return this.factory;
-
     }
 }

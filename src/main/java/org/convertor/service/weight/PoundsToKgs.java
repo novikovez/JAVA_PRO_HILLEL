@@ -1,9 +1,11 @@
-package org.convertor.service;
+package org.convertor.service.weight;
 
 
 /*
 | Автор: Igor Novikov |
 */
+
+import org.convertor.service.ConvertorInterface;
 
 public class PoundsToKgs implements ConvertorInterface {
 
