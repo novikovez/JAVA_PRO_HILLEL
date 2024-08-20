@@ -24,6 +24,7 @@ public class TemperatureFactory extends Language implements ConverterTypeInterfa
             int input = scanner.nextInt();
             return switch (input) {
                 case 1 -> new FrToCe();
+                case 2 -> new CeToFr();
                 default -> {
                     throw new InputMismatchException();
                 }
