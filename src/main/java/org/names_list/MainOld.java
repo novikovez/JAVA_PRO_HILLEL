@@ -9,7 +9,7 @@ import org.locker_app.DataRepository;
  * 17.09.24
  */
 
-public class Main {
+public class MainOld {
     public static void main(String[] args) {
         MyLinkedList<String> test = new MyLinkedList<>();
         test.add("String 1");
@@ -25,5 +25,9 @@ public class Main {
         System.out.println("Size: " + test.size());
         test.add(2,"String Insert");
         System.out.println("String: " + test.toString());
+
+        for (int i = 0; i < test.size(); i++) {
+            System.out.println(test.get(i));
+        }
     }
 }
