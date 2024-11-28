@@ -28,11 +28,7 @@ public class Logger {
                             + " - " + message + System.lineSeparator()).getBytes(),
                     StandardOpenOption.CREATE, StandardOpenOption.APPEND);
         } catch (IOException e) {
-            System.err.println("Ошибка при записи в файл: " + e.getMessage());
+            System.err.println("Помилка під час запису у файл: " + e.getMessage());
         }
-    }
-
-    public void showMessage() {
-        System.out.println("Hello, I am a Singleton instance!");
     }
 }
