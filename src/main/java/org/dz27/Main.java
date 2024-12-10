@@ -45,6 +45,7 @@ public class Main {
             System.out.println(userItem.getId() + " " +userItem.getName() + " " + userItem.getAge() + " " + userItem.getEmail());
         }
 
+        dataBase.close();
     }
 
 }
