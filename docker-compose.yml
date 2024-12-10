@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:17.2
+    container_name: psql
+    restart: always
+    environment:
+      POSTGRES_USER: ${PSQL_LOGIN}
+      POSTGRES_PASSWORD: ${PSQL_PASSWORD}
+      POSTGRES_DB: ${PSQL_BASE}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./volumes/psql:/var/lib/postgresql/data
