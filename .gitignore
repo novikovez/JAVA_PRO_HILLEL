@@ -10,6 +10,7 @@ volumes/psql/*
 *.iws
 *.iml
 *.ipr
+.env
 
 ### Eclipse ###
 .apt_generated
