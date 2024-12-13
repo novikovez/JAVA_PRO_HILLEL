@@ -17,6 +17,6 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Укажите классы-сущности -->
-        <mapping class="org.dz27.entity.User" />
+        <mapping class="org.dz28.entity.Sales" />
     </session-factory>
 </hibernate-configuration>
