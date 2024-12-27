@@ -45,40 +45,45 @@ public class Homework {
         return id;
     }
 
-    public void setId(Long id) {
+    public Homework setId(Long id) {
         this.id = id;
+        return this;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
+    public Homework setDescription(String description) {
         this.description = description;
+        return this;
     }
 
     public LocalDate getDeadline() {
         return deadline;
     }
 
-    public void setDeadline(LocalDate deadline) {
+    public Homework setDeadline(LocalDate deadline) {
         this.deadline = deadline;
+        return this;
     }
 
     public int getMark() {
         return mark;
     }
 
-    public void setMark(int mark) {
+    public Homework setMark(int mark) {
         this.mark = mark;
+        return this;
     }
 
     public Student getStudent() {
         return student;
     }
 
-    public void setStudent(Student student) {
+    public Homework setStudent(Student student) {
         this.student = student;
+        return this;
     }
 
     @Override

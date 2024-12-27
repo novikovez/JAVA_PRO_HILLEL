@@ -1,5 +1,6 @@
 package org.dz30;
 
+import org.dz30.dataprovider.HomeworkProvider;
 import org.dz30.dataprovider.StudentsProvider;
 import org.dz30.entity.Homework;
 import org.dz30.entity.Student;
@@ -24,33 +25,14 @@ public class Main {
         Student student = studentRepository.findById(students.getFirst().getId());
         System.out.println(student);
 
-        Homework homework = new Homework(
-                "Work1",
-                LocalDate.now(),
-                1,
-                student
-        );
-
-        student.addHomework(homework);
+        for(Homework homeworkItem : HomeworkProvider.get()) {
+            student.addHomework(homeworkItem);
+        }
         studentRepository.update(student);
-        System.out.println(homework.toString());
-        student.removeHomework(homework);
+        System.out.println(student.getHomeworks());
+
+        student.removeHomework(student.getHomeworks().iterator().next());
         studentRepository.update(student);
-
-
-
-//
-//        System.out.println("Find Student By Email..");
-//        student = studentRepository.findByEmail(students.getFirst().getEmail());
-//        System.out.println(student);
-//        System.out.println("Update Student..");
-//        student.setFirstName("Dave");
-//        studentRepository.update(student);
-//        System.out.println("Delete Student..");
-//        studentRepository.deleteById(student.getId());
-//        System.out.println("Get All Students After Delete..");
-//        students = studentRepository.findAll();
-//        students.forEach(System.out::println);
-
+        System.out.println(student.getHomeworks());
     }
 }

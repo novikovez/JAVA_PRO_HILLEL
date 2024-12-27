@@ -1,6 +1,7 @@
 package org.dz30.entity;
 
 import jakarta.persistence.*;
+import org.dz30.dao.HomeworkDao;
 
 import java.util.HashSet;
 import java.util.Objects;
@@ -23,9 +24,8 @@ public class Student {
     @Column(nullable = false, unique = true)
     private String email;
 
-    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<Homework> homeworks = new HashSet<>();
-
     public Student(
             final String firstName,
             final String lastName,
@@ -40,11 +40,16 @@ public class Student {
     }
 
     public void addHomework(final Homework homework) {
+        HomeworkDao homeworkDao = new HomeworkDao();
+        homeworkDao.save(homework);
+        homework.setStudent(this);
         homeworks.add(homework);
     }
 
     public void removeHomework(final Homework homework) {
-       homeworks.remove(homework);
+        HomeworkDao homeworkDao = new HomeworkDao();
+        homeworkDao.deleteById(homework.getId());
+        homeworks.remove(homework);
     }
 
     public Long getId() {
