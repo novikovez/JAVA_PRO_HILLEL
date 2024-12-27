@@ -30,9 +30,10 @@ public class Main {
         }
         studentRepository.update(student);
         System.out.println(student.getHomeworks());
-
+        System.out.println("Remove Homework.." + student.getHomeworks().iterator().next());
         student.removeHomework(student.getHomeworks().iterator().next());
         studentRepository.update(student);
+        System.out.println("Actual Homework..");
         System.out.println(student.getHomeworks());
     }
 }

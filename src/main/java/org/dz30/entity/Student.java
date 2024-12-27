@@ -24,7 +24,7 @@ public class Student {
     @Column(nullable = false, unique = true)
     private String email;
 
-    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     private Set<Homework> homeworks = new HashSet<>();
     public Student(
             final String firstName,
@@ -40,16 +40,17 @@ public class Student {
     }
 
     public void addHomework(final Homework homework) {
-        HomeworkDao homeworkDao = new HomeworkDao();
-        homeworkDao.save(homework);
-        homework.setStudent(this);
+//        HomeworkDao homeworkDao = new HomeworkDao();
+//        homeworkDao.save(homework);
         homeworks.add(homework);
+        homework.setStudent(this);
     }
 
     public void removeHomework(final Homework homework) {
-        HomeworkDao homeworkDao = new HomeworkDao();
-        homeworkDao.deleteById(homework.getId());
+//        HomeworkDao homeworkDao = new HomeworkDao();
+//        homeworkDao.deleteById(homework.getId());
         homeworks.remove(homework);
+        homework.setStudent(null);
     }
 
     public Long getId() {

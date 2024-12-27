@@ -94,10 +94,6 @@ public class Homework {
         return Objects.equals(id, homework.id);
     }
 
-    @Override
-    public int hashCode() {
-        return (id != null) ? id.hashCode() : System.identityHashCode(this);
-    }
 
     @Override
     public String toString() {

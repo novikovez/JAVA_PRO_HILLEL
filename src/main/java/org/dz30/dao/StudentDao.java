@@ -52,9 +52,9 @@ public class StudentDao implements GenericDao<Student, Long> {
     public Student update(Student entity) {
         try(Session session = HibernateUtil.getSessionFactory().openSession()) {
             session.beginTransaction();
-            Student student = session.merge(entity);
+            session.update(entity);
             session.getTransaction().commit();
-            return student;
+            return entity;
         }
     }
 
