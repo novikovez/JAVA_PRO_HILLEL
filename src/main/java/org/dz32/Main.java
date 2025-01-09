@@ -11,6 +11,5 @@ public class Main {
         System.out.println(library.getBookCount());
         System.out.println(library.removeBook(book));
         System.out.println(library.getBookCount());
-
     }
 }
