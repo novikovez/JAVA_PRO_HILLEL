@@ -1,11 +1,13 @@
-2025-01-09 14:02:49 [main] INFO  org.Coffee.CoffeeOrderBoard - CoffeeOrderBoard initialization class
-2025-01-09 14:02:49 [main] INFO  org.Coffee.CoffeeOrderBoard - CoffeeOrderBoard.addOrder method add order with number 1
-2025-01-09 14:02:49 [main] INFO  org.Coffee.CoffeeOrderBoard - CoffeeOrderBoard.addOrder method add order with number 2
-2025-01-09 14:02:49 [main] INFO  org.Coffee.CoffeeOrderBoard - CoffeeOrderBoard.addOrder method add order with number 3
-2025-01-09 14:02:49 [main] INFO  org.Coffee.CoffeeOrderBoard - CoffeeOrderBoard.deliver show and remove first order
-2025-01-09 14:02:49 [main] ERROR org.Coffee.CoffeeOrderBoard - Error occurred while trying to deliver the order: Order with number 55 not found
-org.Coffee.NullDeliverId: Order with number 55 not found
-	at org.Coffee.CoffeeOrderBoard.deliver(CoffeeOrderBoard.java:42)
-	at org.Coffee.Main.main(Main.java:16)
-2025-01-09 14:02:49 [main] INFO  org.Coffee.Main - Exception handling! - Order with number 55 not found
-2025-01-09 14:02:49 [main] INFO  org.Coffee.CoffeeOrderBoard - CoffeeOrderBoard.draw show all orders
+2025-01-16 13:50:25 [main] INFO  org.dz33.Server - Server started and waiting for clients...
+2025-01-16 13:50:31 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Client ID 6ebf4f94 успішно підключився
+2025-01-16 13:50:35 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Кліент ID 6ebf4f94 написав повідомлення: hi
+2025-01-16 13:50:38 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Кліент ID 6ebf4f94 написав повідомлення: exit
+2025-01-16 13:50:38 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Кліент ID 6ebf4f94 вийшов та видалений зі списку!!
+2025-01-16 13:52:29 [main] INFO  org.dz33.Server - Server started and waiting for clients...
+2025-01-16 13:52:36 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Client ID b0014bb2 успішно підключився
+2025-01-16 13:52:39 [nioEventLoopGroup-3-2] INFO  org.dz33.ServerHandler - Client ID c3dbfac4 успішно підключився
+2025-01-16 13:52:46 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Кліент ID b0014bb2 написав повідомлення: hi
+2025-01-16 13:52:53 [nioEventLoopGroup-3-2] INFO  org.dz33.ServerHandler - Кліент ID c3dbfac4 написав повідомлення: gg
+2025-01-16 13:52:55 [nioEventLoopGroup-3-2] INFO  org.dz33.ServerHandler - Кліент ID c3dbfac4 написав повідомлення: exit
+2025-01-16 13:52:55 [nioEventLoopGroup-3-2] INFO  org.dz33.ServerHandler - Кліент ID c3dbfac4 вийшов та видалений зі списку!!
+2025-01-16 13:53:02 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Кліент ID b0014bb2 написав повідомлення: fg
