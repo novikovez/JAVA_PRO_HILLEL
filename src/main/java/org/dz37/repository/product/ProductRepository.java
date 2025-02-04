@@ -1,15 +1,16 @@
-package org.dz37.repository.order;
+package org.dz37.repository.product;
 
 import org.dz37.entity.Order;
+import org.dz37.entity.Product;
 import org.dz37.repository.BaseRepository;
 
 import java.util.List;
 import java.util.Optional;
 
-public interface OrderRepository extends BaseRepository<Order> {
-    void create(Order obj);
-    Optional<List<Order>> getAll();
-    Optional<Order> getById(Long id);
-    void update(Order obj);
+public interface ProductRepository extends BaseRepository<Product> {
+    void create(Product obj);
+    Optional<List<Product>> getAll();
+    Optional<Product> getById(Long id);
+    void update(Product obj);
     void deleteById(Long id);
 }

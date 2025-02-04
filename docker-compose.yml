@@ -1,13 +1,35 @@
 services:
   postgres:
     image: postgres:17.2
-    container_name: psql
+    container_name: psql_servlet
     restart: always
     environment:
       POSTGRES_USER: ${PSQL_LOGIN}
       POSTGRES_PASSWORD: ${PSQL_PASSWORD}
       POSTGRES_DB: ${PSQL_BASE}
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - ./volumes/psql:/var/lib/postgresql/data
+    networks:
+      - my_network 
+
+  tomcat:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tomcat
+    ports:
+      - "8087:8080"
+    volumes:
+      - ./logs:/usr/local/tomcat/logs
+    environment:
+      - TZ=Europe/Kiev
+    networks:
+      - my_network
+    depends_on:
+      - postgres
+
+networks:
+  my_network:
+    driver: bridge

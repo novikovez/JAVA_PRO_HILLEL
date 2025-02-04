@@ -1,17 +1,32 @@
-package org.dz37.dto;
+package org.dz37.entity;
+
+import jakarta.persistence.*;
 
 import java.util.List;
 
+@Entity
+@Table(name = "orders")
 public class Order {
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Long id;
+    @Column(name = "order_date")
     private String date;
+    @Column(name = "cost")
     private double cost;
+    @ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.REFRESH})
+    @JoinTable(
+            name = "order_products", // Название промежуточной таблицы
+            joinColumns = @JoinColumn(name = "orders_id"), // Связь с Order
+            inverseJoinColumns = @JoinColumn(name = "product_id") // Связь с Product
+    )
     private List<Product> products;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
