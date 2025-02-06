@@ -11,3 +11,180 @@
 2025-01-16 13:52:55 [nioEventLoopGroup-3-2] INFO  org.dz33.ServerHandler - Кліент ID c3dbfac4 написав повідомлення: exit
 2025-01-16 13:52:55 [nioEventLoopGroup-3-2] INFO  org.dz33.ServerHandler - Кліент ID c3dbfac4 вийшов та видалений зі списку!!
 2025-01-16 13:53:02 [nioEventLoopGroup-3-1] INFO  org.dz33.ServerHandler - Кліент ID b0014bb2 написав повідомлення: fg
+2025-02-06 13:59:06 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@619713e5
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 13:59:06 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 13:59:06 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cart'
+2025-02-06 13:59:06 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:02:36 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447
+2025-02-06 14:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:02:36 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:02:36 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:02:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:32:11 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:32:11 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:32:11 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:32:11 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:32:11 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:32:12 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@16ec5519
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:32:12 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:32:12 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:32:12 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:32:12 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:36:33 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c33b74f
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:36:33 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:36:33 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:36:33 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:36:33 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:39:41 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@243c4f91
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:39:41 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:39:41 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:39:41 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:39:41 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:40:40 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@243c4f91
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:40:40 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:40:40 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:40:40 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:40:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:41:40 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@243c4f91
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:41:40 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:41:40 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:41:40 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:41:40 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:45:27 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c33b74f
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:45:27 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:45:27 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:45:27 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:45:27 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:46:39 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@243c4f91
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:46:39 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:46:39 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:46:39 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:46:39 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:48:28 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:48:28 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:48:28 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:48:28 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:48:28 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:54:19 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@243c4f91
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:54:19 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:54:19 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:54:19 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:54:19 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:54:29 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ef3eef9
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:54:29 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:54:29 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:54:29 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:54:29 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:55:57 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@647e447
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2025-02-06 14:55:57 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/repository/product/ProductRepositoryImpl.class]
+2025-02-06 14:55:57 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/Cart.class]
+2025-02-06 14:55:57 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/macmini/Developing/SERVLER_JAVA/target/classes/org/dz38/service/ProductService.class]
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'config'
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productRepositoryImpl'
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'productService' via constructor to bean named 'productRepositoryImpl'
+2025-02-06 14:55:57 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'cart' via constructor to bean named 'productRepositoryImpl'
